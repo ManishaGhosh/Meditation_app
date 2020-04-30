@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Meditation App</title>
+    <link rel="stylesheet" href="style.css">
+      <link rel="shortcut icon" href="fevicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="app.js">  </script>
+  </head>
+  <body>
+    <div id="bgimg">
+<div id='time-selector'>
+    <button type="button" id="twomin" data-time="120">2 Minutes</button>
+    <button type="button" id="fivemin" data-time="300">5 Minutes</button>
+    <button type="button" id="tenmin" data-time="600">10 Minutes</button>
+</div>
+
+<div id="progress">
+
+
+        <div id='timenp'>
+                <div id='showtime'>
+
+
+                  <p id="minutes" >11</p>
+    <p id='dash'> : </p>
+  <p id="seconds" type="text" >11</p>
+
+                </div>
+                <div id='progbar'>
+                      <div id='mybar'>
+                      </div>
+                </div>
+        </div>
+
+
+        <div id='pcont'> <div id='ppr'>
+            <button type="button" name="play" id='play'> <img src="icons/play.png" alt="play"> </button>
+            <button type="button" name="pause" id='pause'> <img src="icons/pause.png" alt="play"> </button>
+            <button type="button" name="replay" id='replay'> <img src="icons/replay.png" alt="play"> </button>
+        </div> </div>
+</div>
+
+<div id='sound-selector'>
+<button type="button" name="button" id="rain">
+    <img src="rain.png" alt="Rain Sound">
+</button>
+<button type="button" name="button" id="beach">
+    <img src="beach.png" alt="Beach Sound">
+</button>
+</div>
+
+
+</div>
+  </body>
+</html>
